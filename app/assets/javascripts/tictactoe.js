@@ -1,4 +1,4 @@
-// Code your JavaScript / jQuery solution here
+
 let turn = 0;
 // Returns the current player
 function player(){
@@ -17,7 +17,7 @@ function attachListeners(){
   $('button#clear').on('click, clearGame')
   //Allows tiles to be clicked and take turn
   $('td').on('click',function(){
-    doTurn($(this))
+    doTurn($(this));
   }
 }
 $(document).ready(function(){
