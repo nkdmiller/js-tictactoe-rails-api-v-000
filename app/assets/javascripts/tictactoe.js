@@ -16,10 +16,10 @@ function attachListeners(){
   $('button#save').on('click, saveGame')
   $('button#clear').on('click, clearGame')
   //Allows tiles to be clicked and take turn
-  $('td').on('click',function{
+  $('td').on('click',function(){
     doTurn($(this))
   }
 }
-$(document).ready(function{
+$(document).ready(function(){
   attachListeners();
 })
